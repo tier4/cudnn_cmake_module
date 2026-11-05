@@ -26,7 +26,7 @@ jobs:
             ros_distribution: rolling
             ros_version: 2
     steps:
-      - uses: ros-tooling/action-ros-ci@v0.2
+      - uses: ros-tooling/action-ros-ci@0.2.7
         with:
           package-name: cudnn_cmake_module
           target-ros2-distro: ${{ matrix.ros_distribution }}
